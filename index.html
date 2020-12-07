@@ -18,21 +18,21 @@
 <body>
 	<header class="header">
 		<div class="container">
-			<div class="header__mobile-navigation">
-				<img class="header__logo-mobile-picture" src="img/steering-wheel.svg" alt="">
-				<button class="header__menu-button icon-bars" type="button" id="menu-button"></button>
+			<div class="header__mobile">
+				<img class="header__mobile-logo" src="img/steering-wheel.svg" alt="">
+				<button class="header__mobile-button icon-bars" type="button" id="menu-button"></button>
 			</div>
 			<nav class="menu" id="menu">
-				<div class="menu__left">
+				<div class="menu__inner">
 					<a class="menu__link" href="#">HOME</a>
 					<a class="menu__link" href="#about">ABOUT</a>
 					<a class="menu__link" href="#team">TEAM</a>
 					<a class="menu__link" href="#order">BOOKING</a>
 				</div>
-				<div class="menu__center">
-					<img class="menu__center-picture" src="img/steering-wheel.svg" alt="">
+				<div class="menu__inner menu__logo-wrapper">
+					<img class="menu__logo" src="img/steering-wheel.svg" alt="">
 				</div>
-				<div class="menu__right">
+				<div class="menu__inner">
 					<a class="menu__link" href="#delicious-menu">MENU</a>
 					<a class="menu__link" href="#specialties">GALERIE</a>
 					<a class="menu__link" href="#events">EVENTS</a>
@@ -63,12 +63,12 @@
 			<div class="container">
 				<div class="about__wrapper">
 					<div class="about__info">
-						<div class="title">about us</div>
-						<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
-							molestie est a, tempor magna.</div>
-						<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+						<h4 class="title">about us</h4>
+						<h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+							molestie est a, tempor magna.</h5>
+						<p class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
 							ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec
-							sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+							sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
 					</div>
 					<div class="about__picture-wrapper">
 						<img class="about__picture" src="img/about-image.png" alt="">
@@ -78,15 +78,15 @@
 		</section>
 		<section class="team" id="team">
 			<div class="container">
-				<div class="top-title">OUR TEAM</div>
+				<h3 class="top-title">OUR TEAM</h3>
 				<div class="team__wrapper">
 					<div class="team__picture-wrapper">
 						<img class="team__picture" src="img/team-image.png" alt="">
 					</div>
 					<div class="team__info">
-						<div class="title">MASTER CHEF</div>
-						<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
-						<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+						<h4 class="title">MASTER CHEF</h4>
+						<h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+						<p class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
 					</div>
 				</div>
 			</div>
@@ -95,7 +95,7 @@
 			<div class="container">
 				<div class="order__wrapper">
 					<div class="order__info">
-						<div class="title">book a table</div>
+						<h4 class="title">book a table</h4>
 						<form class="order__form" action="#">
 							<input class="order__form-item" type="text" placeholder="Name">
 							<input class="order__form-item" type="text" placeholder="Email">
@@ -115,16 +115,16 @@
 		</section>
 		<section class="specialties" id="specialties">
 			<div class="container">
-				<div class="top-title">specialties</div>
+				<h3 class="top-title">specialties</h3>
 				<div class="specialties__wrapper">
 					<div class="specialties__item">
 						<div class="specialties__item-picture-wrapper">
 							<img class="specialties__item-picture" src="img/specialties-image.png" alt="">
 						</div>
 						<div class="specialties__item-info-wrapper">
-							<div class="title">chocolate pancakes</div>
-							<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
-							<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+							<h4 class="title">chocolate pancakes</h4>
+							<h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+							<p class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
 						</div>
 					</div>
 					<div class="specialties__item">
@@ -132,9 +132,9 @@
 							<img class="specialties__item-picture" src="img/specialties-image.png" alt="">
 						</div>
 						<div class="specialties__item-info-wrapper">
-							<div class="title">chocolate pancakes</div>
-							<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
-							<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+							<h4 class="title">chocolate pancakes</h4>
+							<h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+							<p class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
 						</div>
 					</div>
 					<div class="specialties__item">
@@ -142,9 +142,9 @@
 							<img class="specialties__item-picture" src="img/specialties-image.png" alt="">
 						</div>
 						<div class="specialties__item-info-wrapper">
-							<div class="title">chocolate pancakes</div>
-							<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
-							<div class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+							<h4 class="title">chocolate pancakes</h4>
+							<h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
+							<p class="text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
 						</div>
 					</div>
 				</div>
@@ -152,8 +152,8 @@
 		</section>
 		<section class="delicious-menu" id="delicious-menu">
 			<div class="container">
-				<div class="title">DELICIOUS MENU</div>
-				<div class="subtitle delicious-menu__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+				<h4 class="title">DELICIOUS MENU</h4>
+				<h5 class="subtitle delicious-menu__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
 				<div class="delicious-menu__wrapper">
 					<div class="delicious-menu__item">
 						<div class="delicious-menu__item-column">
@@ -510,7 +510,7 @@
 		</section>
 		<section class="events" id="events">
 			<div class="container">
-				<div class="top-title">PRIVATE EVENTS</div>
+				<h3 class="top-title">PRIVATE EVENTS</h3>
 				<div class="events__wrapper">
 					<div class="events__picture-wrapper">
 						<img class="events__picture" src="img/weddings.png" alt="">
@@ -532,8 +532,8 @@
 		</section>
 		<section class="contact" id="contact">
 			<div class="container">
-				<div class="title">CONTACT</div>
-				<div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+				<h4 class="title">CONTACT</h4>
+				<h5 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h5>
 				<form class="contact__form" action="">
 					<input class="contact__input" type="text" placeholder="Name">
 					<input class="contact__input" type="text" placeholder="Email">
